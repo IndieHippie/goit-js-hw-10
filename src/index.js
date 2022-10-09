@@ -1,9 +1,9 @@
 import './css/styles.css';
 import { Notify } from 'notiflix';
 import debounce from 'lodash.debounce';
-import { fetchCountries } from './fetchCountries';
-import { createMarkupList } from './createMarkap';
-import { createMarkupInfoList } from './createMarkap';
+import { fetchCountries } from './js/fetchCountries';
+import { createMarkupList } from './js/createMarkap';
+import { createMarkupInfoList } from './js/createMarkap';
 
 const DEBOUNCE_DELAY = 300;
 const inputRef = document.querySelector('#search-box');
